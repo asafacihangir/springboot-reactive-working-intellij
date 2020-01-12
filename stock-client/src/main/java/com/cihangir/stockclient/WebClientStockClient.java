@@ -10,7 +10,7 @@ import java.time.Duration;
 
 
 
-public class WebClientStockClient {
+public class WebClientStockClient implements StockClient {
 
     Logger logger = LoggerFactory.getLogger(WebClientStockClient.class);
     private WebClient webClient;
